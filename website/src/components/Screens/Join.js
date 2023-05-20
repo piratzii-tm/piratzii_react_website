@@ -1,8 +1,38 @@
+import Navbar from "../Navbar";
+import OneProject from "../OneProject";
+import {useRef} from "react";
+
 export default function Join() {
 
+    const ref = useRef(null);
+
+    const handleClick = () => {
+        ref.current?.scrollIntoView({behavior: 'smooth'});
+    };
+
     return (
-        <div>
-            <h1>Join us</h1>
+        <div className="h-full">
+            <div className="flex items-center flex-col h-screen bg-gradient-to-br from-yellow-950 to-yellow-500">
+                <Navbar title={"Join us"}/>
+                <div className="flex flex-col md:flex-row w-3/5 h-fit gap-3 md:gap-0 md:items-center md:mt-80">
+                    <h1 className="block md:hidden text-2xl text-orange-200 md:text-3xl font-bold">JOIN US</h1>
+                    <div className="flex flex-col w-4/5 items-center gap-10 ">
+                        <img src={require("../../images/join.png")} className="hidden md:block group-hover:hidden h-20 w-20 md:h-24 md:w-24"/>
+                        <p className="text-lg text-orange-300 md:w-4/5 ">
+                            Our team is expanding day by day. So if you are interested in competitions and your
+                            development in the IT field, join us.
+                        </p>
+
+                        <div className="flex flex-col md:flex-row gap-10">
+                            <a target="#" href={"https://github.com/piratzii-tm"}><img src={require("../../images/github.png")} className="h-20 w-20"/></a>
+                            <a target="#" href={"https://discord.gg/7bzyyafX"}><img src={require("../../images/discord.png")} className="h-20 w-20"/></a>
+                        </div>
+
+                    </div>
+                    <h1 className="hidden md:block md:rotate-90 text-2xl text-orange-200 md:text-3xl font-bold items-center">JOIN US</h1>
+                </div>
+
+            </div>
         </div>
     )
 }
