@@ -43,6 +43,7 @@ export default function Projects() {
                 </div>
                 <div className="flex lg:flex-row flex-col w-fit justify-evenly">
                     <OneProject title={"SocialCard"} description={"A project that is made by people for people. This project is a website that has the main goal of helping people digitalize their business cards aka share their socials easier."} link={"https://github.com/piratzii-tm/unihack2022"}/>
+                    <OneProject title={"CodeTaping"} description={"This is a cookie clicker kind of game, where you \"Code\". Pressing the keyboard, you generate points, and get better and better at coding. As you get better, you go for harder programing languages, and slower to write"} link={"https://github.com/PopIulian88/CodeTaping"}/>
                 </div>
             </div>
         </div>
