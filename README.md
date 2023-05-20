@@ -1,3 +1,1 @@
 # πratzii - website React
-
-Loading ...
