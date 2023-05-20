@@ -12,7 +12,7 @@ export default function Join() {
 
     return (
         <div className="h-full">
-            <div className="flex items-center flex-col h-screen bg-gradient-to-br from-yellow-950 to-yellow-500">
+            <div className="flex items-center flex-col h-screen bg-gradient-to-br from-yellow-950 to-yellow-500 justify-center">
                 <Navbar title={"Join us"}/>
                 <div className="flex flex-col md:flex-row w-3/5 h-fit gap-3 md:gap-0 md:items-center md:mt-80">
                     <h1 className="block md:hidden text-2xl text-orange-200 md:text-3xl font-bold">JOIN US</h1>
@@ -23,9 +23,9 @@ export default function Join() {
                             development in the IT field, join us.
                         </p>
 
-                        <div className="flex flex-col md:flex-row gap-10">
-                            <a target="#" href={"https://github.com/piratzii-tm"}><img src={require("../../images/github.png")} className="h-20 w-20"/></a>
-                            <a target="#" href={"https://discord.gg/7bzyyafX"}><img src={require("../../images/discord.png")} className="h-20 w-20"/></a>
+                        <div className="flex flex-row gap-10">
+                            <a target="#" href={"https://github.com/piratzii-tm"}><img src={require("../../images/github.png")} className="h-16 w-16 lg:h-20 lg:w-20"/></a>
+                            <a target="#" href={"https://discord.gg/7bzyyafX"}><img src={require("../../images/discord.png")} className="h-16 w-16 lg:h-20 lg:w-20"/></a>
                         </div>
 
                     </div>
