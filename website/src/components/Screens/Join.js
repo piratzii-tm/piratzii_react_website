@@ -14,10 +14,10 @@ export default function Join() {
         <div className="h-full">
             <div className="flex items-center flex-col h-screen bg-gradient-to-br from-yellow-950 to-yellow-500 justify-center">
                 <Navbar title={"Join us"}/>
-                <div className="flex flex-col md:flex-row w-3/5 h-fit gap-3 md:gap-0 md:items-center md:mt-80">
-                    <h1 className="block md:hidden text-2xl text-orange-200 md:text-3xl font-bold">JOIN US</h1>
+                <div className="flex flex-col lg:flex-row w-3/5 h-fit gap-3 md:gap-0 lg:items-center">
+                    <h1 className="block lg:hidden text-2xl text-orange-200 md:text-3xl font-bold">JOIN US</h1>
                     <div className="flex flex-col w-4/5 items-center gap-10 ">
-                        <img src={require("../../images/join.png")} className="hidden md:block group-hover:hidden h-20 w-20 md:h-24 md:w-24"/>
+                        <img src={require("../../images/join.png")} className="hidden lg:block group-hover:hidden h-20 w-20 lg:h-24 lg:w-24"/>
                         <p className="text-lg text-orange-300 md:w-4/5 ">
                             Our team is expanding day by day. So if you are interested in competitions and your
                             development in the IT field, join us.
@@ -29,7 +29,7 @@ export default function Join() {
                         </div>
 
                     </div>
-                    <h1 className="hidden md:block md:rotate-90 text-2xl text-orange-200 md:text-3xl font-bold items-center">JOIN US</h1>
+                    <h1 className="hidden lg:block lg:rotate-90 text-2xl text-orange-200 lg:text-3xl font-bold items-center">JOIN US</h1>
                 </div>
 
             </div>
