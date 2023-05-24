@@ -15,8 +15,8 @@ export default function Projects() {
     };
 
     return (
-        <div className="h-full max:h-fit">
-            <div className="flex items-center flex-col h-screen bg-gradient-to-br from-red-950 to-red-500 justify-center">
+        <div className="h-full max:h-fit bg-gradient-to-br from-red-950 to-red-500">
+            <div className="flex items-center flex-col  h-screen bg-gradient-to-br from-red-950 to-red-500 justify-center">
                 <Navbar title={"Projects"}/>
 
                 <div className="flex flex-col lg:flex-row w-4/5 h-fit gap-3 lg:gap-0 lg:items-center lg:justify-center">
@@ -35,7 +35,7 @@ export default function Projects() {
 
                 </button>
             </div>
-            <div ref={ref} className="flex flex-col w-full lg:h-screen max:h-fit bg-gradient-to-tr from-red-950 to-red-500">
+            <div ref={ref} className="flex flex-col w-full ms:h-screen bg-gradient-to-tr from-red-950 to-red-500">
                 <div className="flex lg:flex-row flex-col w-full justify-evenly">
                     <OneProject title={"TimiTourist"} description={"TimiTourist este o aplicație care își dorește să introducă o metoda mai intercativă care să motiveze atât turștii cât si localnicii să cunoască Timișoara."} link={"https://github.com/piratzii-tm/iTec_2023"}/>
                     <OneProject title={"iCheck"} description={"Are you ready for a health checkup? Improve your life by checking all your cells. Upload & view medical records and receive notifications when is the time for a new health investigation."} link={"https://github.com/piratzii-tm/HackTM_2023"}/>
