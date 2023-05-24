@@ -1,9 +1,13 @@
 import {Link} from "react-router-dom";
 import OneContest from "../OneContest";
 import Spacer from "../Spacer";
+import {useEffect} from "react";
 
 export default function Contests() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component mounts
+    }, []);
 
     return (
         <div className="h-full max:h-fit flex flex-row gap-3 bg-gradient-to-br from-gray-950 to-gray-500 justify-center">

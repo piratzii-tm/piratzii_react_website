@@ -1,10 +1,13 @@
 import Navbar from "../Navbar";
 import OneProject from "../OneProject";
-import {useRef} from "react";
+import {useEffect, useRef} from "react";
 
 export default function Join() {
 
     const ref = useRef(null);
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component mounts
+    }, []);
 
     const handleClick = () => {
         ref.current?.scrollIntoView({behavior: 'smooth'});

@@ -1,6 +1,11 @@
 import Navbar from "../Navbar";
+import {useEffect} from "react";
 
 export default function Team() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top when the component mounts
+    }, []);
 
     return (
         <div className="h-full max:h-fit">
