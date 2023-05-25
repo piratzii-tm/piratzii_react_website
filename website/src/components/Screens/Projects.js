@@ -35,7 +35,7 @@ export default function Projects() {
 
                 </button>
             </div>
-            <div ref={ref} className="flex flex-col w-full ms:h-screen bg-gradient-to-tr from-red-950 to-red-500">
+            <div ref={ref} className="flex flex-col w-full ms:h-screen lg:h-screen bg-gradient-to-tr from-red-950 to-red-500">
                 <div className="flex lg:flex-row flex-col w-full justify-evenly">
                     <OneProject title={"TimiTourist"} description={"TimiTourist este o aplicație care își dorește să introducă o metoda mai intercativă care să motiveze atât turștii cât si localnicii să cunoască Timișoara."} link={"https://github.com/piratzii-tm/iTec_2023"}/>
                     <OneProject title={"iCheck"} description={"Are you ready for a health checkup? Improve your life by checking all your cells. Upload & view medical records and receive notifications when is the time for a new health investigation."} link={"https://github.com/piratzii-tm/HackTM_2023"}/>
