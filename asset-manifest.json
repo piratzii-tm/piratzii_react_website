@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/piratzii_react_website/static/css/main.bb4099e5.css",
+    "main.js": "/piratzii_react_website/static/js/main.21efbf86.js",
+    "static/media/logo.png": "/piratzii_react_website/static/media/logo.0dcba6d52b01db85036d.png",
+    "static/media/itec.jpeg": "/piratzii_react_website/static/media/itec.e60763191764d178ac62.jpeg",
+    "static/media/rope.png": "/piratzii_react_website/static/media/rope.5be99f5a66ad6b494afb.png",
+    "static/media/hacktm.jpeg": "/piratzii_react_website/static/media/hacktm.f7e5577480346a6a0f81.jpeg",
+    "static/media/Paul.jfif": "/piratzii_react_website/static/media/Paul.9a2dde81c187fa8763c5.jfif",
+    "static/media/unihack2022.jpg": "/piratzii_react_website/static/media/unihack2022.ab07425416f6eca2dd6d.jpg",
+    "static/media/discord.png": "/piratzii_react_website/static/media/discord.5a9aea2bb59bd1a2b932.png",
+    "static/media/IulianPop.jfif": "/piratzii_react_website/static/media/IulianPop.e41db6b1548761060ece.jfif",
+    "static/media/IulianPoenaru.jfif": "/piratzii_react_website/static/media/IulianPoenaru.a5c491ad263d82dc77f0.jfif",
+    "static/media/ccc36.jpg": "/piratzii_react_website/static/media/ccc36.628a6c967c34a656bea4.jpg",
+    "static/media/ccc37.jpg": "/piratzii_react_website/static/media/ccc37.6c95a3d806fbf254d997.jpg",
+    "static/media/coin.gif": "/piratzii_react_website/static/media/coin.dfd4032cac85936ec961.gif",
+    "static/media/skull.png": "/piratzii_react_website/static/media/skull.db08217df6c213ba56fe.png",
+    "static/media/contest.png": "/piratzii_react_website/static/media/contest.564209c04933c9f76fdf.png",
+    "static/media/projects.png": "/piratzii_react_website/static/media/projects.53d04a7f79571aada6e5.png",
+    "static/media/join.png": "/piratzii_react_website/static/media/join.591ffdf2edf5184bd8cb.png",
+    "static/media/github.png": "/piratzii_react_website/static/media/github.f11021803f68852df283.png",
+    "static/media/team.png": "/piratzii_react_website/static/media/team.49061eecad239e283e5f.png",
+    "static/media/mouse.png": "/piratzii_react_website/static/media/mouse.88759d80b83de8260e2b.png",
+    "index.html": "/piratzii_react_website/index.html",
+    "main.bb4099e5.css.map": "/piratzii_react_website/static/css/main.bb4099e5.css.map",
+    "main.21efbf86.js.map": "/piratzii_react_website/static/js/main.21efbf86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb4099e5.css",
+    "static/js/main.21efbf86.js"
+  ]
+}
