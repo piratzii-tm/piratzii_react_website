@@ -28,7 +28,7 @@ export default function Join() {
 
                         <div className="flex flex-row gap-10">
                             <a target="#" href={"https://github.com/piratzii-tm"}><img src={require("../../images/github.png")} className="h-16 w-16 lg:h-20 lg:w-20"/></a>
-                            <a target="#" href={"https://discord.gg/7bzyyafX"}><img src={require("../../images/discord.png")} className="h-16 w-16 lg:h-20 lg:w-20"/></a>
+                            <a target="#" href={"https://discord.gg/KNVRzTu38J"}><img src={require("../../images/discord.png")} className="h-16 w-16 lg:h-20 lg:w-20"/></a>
                         </div>
 
                     </div>
